@@ -236,7 +236,7 @@ const handleSubmit = (e) => {
                     <input value={mob} onChange={(e)=>setmob(e.target.value)} className='inp' type="number" name="" id="" placeholder='Mob.Number'/>
                     <input value={email} onChange={(e)=>setemail(e.target.value)} className='inp' type="email" name="kkk" id="" placeholder='Email Address'/>
                 </div>
-                <textarea value={message} onChange={(e)=>setmessage(e.target.value)} className='textarea' name="" id="" placeholder='Enter your message your...'></textarea>
+                <textarea value={message} onChange={(e)=>setmessage(e.target.value)} className='textarea' name="" id="" placeholder='Enter your message here...'></textarea>
                 <div className='btn2'>
                     <h5 onClick={handleSubmit} className='btnsubmit'>Submit</h5>
                 </div>
