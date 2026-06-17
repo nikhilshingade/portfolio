@@ -84,7 +84,7 @@ const handleSubmit = (e) => {
               <a href="https://twitter.com/your-profile" target="_blank" rel="noreferrer">
                 <FaTwitter className='iconstyle' style={{color: "#1DA1F2"}} />
               </a>
-              <a href="https://github.com/nikhilshingade131" target="_blank" rel="noreferrer">
+              <a href="https://github.com/nikhilshingade" target="_blank" rel="noreferrer">
                 <FaGithub className='iconstyle' style={{color: "#ffffff"}} />
               </a>
               <a href="https://facebook.com/your-profile" target="_blank" rel="noreferrer">
