@@ -1,6 +1,5 @@
 {
-  "homepage":"https://nikhilshingade131.github.io/portfolio",
-  "name": "todoapp",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -51,6 +50,5 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
