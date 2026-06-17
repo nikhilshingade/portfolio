@@ -144,9 +144,28 @@ const handleSubmit = (e) => {
           <h1 className='aboutn'>My Projects</h1>
           <div className='projectscards'>
               <div className="procards">
-                <img className='weatherimg' src={weather} alt='weather img' />
+                <img className='weatherimg' src={res1} alt='weather img' />
                 <div className='prodetails'>
                     <h6 className='proseq'>Project 1</h6>
+                    <h3 className='proName'>ShopHub E-Commerce</h3>
+                    <h6 className='proinfo'>Developed a full-stack e-commerce platform using React and ASP.NET Core Web API. Implemented authentication, product management, shopping cart, order processing, admin dashboard, and responsive UI with seamless REST API integration.</h6>
+                </div>
+                <div className='bottominfo' >
+                    <a href="https://react-dotnet-ecommerce.vercel.app/" target="_blank" rel="noopener noreferrer">
+                      <h6 className="withicon">Visit</h6>
+                    </a>
+                    <a href="https://github.com/nikhilshingade/react-dotnet-ecommerce" target="_blank" rel="noopener noreferrer">
+                      <div className='withicon'>
+                          <h6>Git</h6>
+                          <FiExternalLink className='openlink' />
+                      </div>
+                    </a>
+                </div>
+              </div>
+              <div className="procards">
+                <img className='weatherimg' src={weather} alt='weather img' />
+                <div className='prodetails'>
+                    <h6 className='proseq'>Project 2</h6>
                     <h3 className='proName'>Weather App</h3>
                     <h6 className='proinfo'>This project fetches real-time weather data city-wise using the OpenWeather API. Users can enter a city name to get current temperature, weather conditions, humidity, wind speed, and more. It provides a clean and responsive UI for a smooth user experience.</h6>
                 </div>
@@ -165,7 +184,7 @@ const handleSubmit = (e) => {
               <div className="procards">
                 <img className='weatherimg' src={flipcart} alt='weather img' />
                 <div className='prodetails'>
-                    <h6 className='proseq'>Project 2</h6>
+                    <h6 className='proseq'>Project 3</h6>
                     <h3 className='proName'>Flipcart clone</h3>
                     <h6 className='proinfo'>This e-commerce app replicates core Flipkart features. It fetches product data from an API and displays it neatly. The app uses React Router for navigation and TypeScript for type safety, offering a smooth, responsive experience across product, detail, and cart pages.</h6>
                 </div>
@@ -184,7 +203,7 @@ const handleSubmit = (e) => {
               <div className="procards">
                 <img className='weatherimg' src={pro} alt='weather img' />
                 <div className='prodetails'>
-                    <h6 className='proseq'>Project 3</h6>
+                    <h6 className='proseq'>Project 4</h6>
                     <h3 className='proName'>QuickMart</h3>
                     <h6 className='proinfo'>This single-page e-commerce app fetches product data using an API, implements routing with React Router, and features fully responsive design. User login is tested with Postman, ensuring secure access, smooth navigation, and efficient state management for better performance.<br></br>Login ID: emilys & Password: emilyspass</h6>
                 </div>
@@ -200,25 +219,7 @@ const handleSubmit = (e) => {
                     </a>
                 </div>
               </div>
-              <div className="procards">
-                <img className='weatherimg' src={res1} alt='weather img' />
-                <div className='prodetails'>
-                    <h6 className='proseq'>Project 4</h6>
-                    <h3 className='proName'>Responsive Design-1</h3>
-                    <h6 className='proinfo'>This project features a responsive design that adjusts seamlessly across all devices. Using CSS media queries, the layout, fonts, and elements adapt to different screen sizes, ensuring a smooth experience on mobile, tablet, and desktop. It also offers optimized performance, clear navigation, and enhanced usability for all users.</h6>
-                </div>
-                <div className='bottominfo' >
-                    <a href=" https://nikhilshingade131.github.io/nexcent-responsive/" target="_blank" rel="noopener noreferrer">
-                      <h6 className="withicon">Visit</h6>
-                    </a>
-                    <a href="https://github.com/nikhilshingade131/nexcent-responsive.git" target="_blank" rel="noopener noreferrer">
-                      <div className='withicon'>
-                          <h6>Git</h6>
-                          <FiExternalLink className='openlink' />
-                      </div>
-                    </a>
-                </div>
-              </div>
+              
           </div>
         </div>
 
@@ -250,3 +251,4 @@ const handleSubmit = (e) => {
 }
 
 export default Homepage
+
